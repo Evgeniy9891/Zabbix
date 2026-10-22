@@ -21,4 +21,26 @@
 1. [Руководство по оформлению Markdown файлов](https://gist.github.com/Jekins/2bf2d0638163f1294637#Code)
 
 ---Фадеев Е.А.
+- Задание 1
+- Создайте файл с правилом оповещения, как в лекции, и добавьте его в конфиг Prometheus.
+
+- Требования к результату
+- Погасите node exporter, стоящий на мониторинге, и прикрепите скриншот раздела оповещений Prometheus, где оповещение будет в статусе Pending
+  <img width="1354" height="427" alt="22 10" src="https://github.com/user-attachments/assets/a63b9649-e8e7-4dc1-baac-06f213b0e1a7" />
+
+- Задание 2
+- Установите Alertmanager и интегрируйте его с Prometheus.
+
+- Требования к результату
+ - Прикрепите скриншот Alerts из Prometheus, где правило оповещения будет в статусе Fireing, и скриншот из Alertmanager, где будет видно действующее правило оповещения
+   <img width="1360" height="454" alt="22 10-1" src="https://github.com/user-attachments/assets/5c4aec79-4693-44dd-99b5-d0ae28a5dae3" />
+<img width="1235" height="632" alt="22 10-1 1" src="https://github.com/user-attachments/assets/fac83821-1dab-438a-84df-50d0fca7a5ee" />
+
+- Задание 3
+- Активируйте экспортёр метрик в Docker и подключите его к Prometheus.
+
+- Требования к результату
+ -приложите скриншот браузера с открытым эндпоинтом, а также скриншот списка таргетов из интерфейса Prometheus.*
+  <img width="1254" height="672" alt="22 10-3 1" src="https://github.com/user-attachments/assets/55ac7730-3c17-4da0-8bd2-aeb3ed7c6df1" />
+<img width="1336" height="550" alt="22 10-3" src="https://github.com/user-attachments/assets/dbe376b0-0ded-4d7e-b4d5-398f8bd8b5e8" />
 
