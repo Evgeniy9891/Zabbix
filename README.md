@@ -22,3 +22,24 @@
 
 ---Фадеев Е.А.
 
+- Задание 1
+- Запустите два simple python сервера на своей виртуальной машине на разных портах
+- Установите и настройте HAProxy, воспользуйтесь материалами к лекции по ссылке
+- Настройте балансировку Round-robin на 4 уровне.
+- На проверку направьте конфигурационный файл haproxy, скриншоты, где видно перенаправление запросов на разные серверы при обращении к HAProxy.
+<img width="1125" height="586" alt="02 11-1" src="https://github.com/user-attachments/assets/da630629-c4b0-4a0f-a9e9-583dec7ab53c" />
+<img width="1271" height="515" alt="02 11" src="https://github.com/user-attachments/assets/de3af04c-359c-4a15-ad4a-dfeaf9301045" />
+
+  
+- Задание 2
+- Запустите три simple python сервера на своей виртуальной машине на разных портах
+- Настройте балансировку Weighted Round Robin на 7 уровне, чтобы первый сервер имел вес 2, второй - 3, а третий - 4
+- HAproxy должен балансировать только тот http-трафик, который адресован домену example.local
+- На проверку направьте конфигурационный файл haproxy, скриншоты, где видно перенаправление запросов на разные серверы при обращении к HAProxy c использованием домена example.local и без него.
+
+<img width="1059" height="564" alt="02 11-2 4" src="https://github.com/user-attachments/assets/03723ee3-60c7-4409-9fe3-f9fed1cb26e5" />
+<img width="836" height="396" alt="02 11-2" src="https://github.com/user-attachments/assets/95148120-2617-4eb9-a4d1-f7b87f992e3b" />
+<img width="1137" height="350" alt="02 11-2 1" src="https://github.com/user-attachments/assets/645825ce-f9bb-4074-a905-96480e816356" />
+<img width="916" height="591" alt="02 11-2 2" src="https://github.com/user-attachments/assets/13b1a4e0-f768-47ae-b77b-d85fbefc5660" />
+<img width="795" height="374" alt="02 11-2 3" src="https://github.com/user-attachments/assets/eb2cbfec-d9ea-4c63-991d-a88b702a118d" />
+
